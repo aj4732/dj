@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<body>
+<center>
+<p>Press a key on the keyboard play a sound</p>
+
+<input type="text" size="1" onkeypress="myFunction(event)" id="nan">
+
+<p id="demo"></p>
+</center>
+<script>
+/* In this example, we use a cross-browser solution, because the keyCode property does not work on the onkeypress event in Firefox. However, the which property does.
+
+Explanation of the first line in the function below: if the browser supports event.which, then use event.which, otherwise use event.keyCode */
+
+function myFunction(event) {
+  var x = event.which || event.keyCode;
+ 
+  document.getElementById("nan").value="";
+  if(x==113){
+    var audio = new Audio('q.mp3');
+    document.getElementById("nan").value="";
+audio.play();
+  }
+  if(x==119){
+    var audio = new Audio('w.mp3');
+    document.getElementById("nan").value="";
+audio.play();
+  }
+  if(x==101){
+    var audio = new Audio('e.mp3');
+    document.getElementById("nan").value="";
+audio.play();
+  }
+  if(x==114){
+    var audio = new Audio('r.mp3');
+    document.getElementById("nan").value="";
+audio.play();
+  }
+  if(x==116){
+    var audio = new Audio('t.mp3');
+    document.getElementById("nan").value="";
+audio.play();
+  }
+  if(x==121){
+    var audio = new Audio('y.mp3');
+    document.getElementById("nan").value="";
+audio.play();
+  }
+  if(x==117){
+    var audio = new Audio('v.mp3');
+    document.getElementById("nan").value="";
+audio.play();
+  }
+  if(x==105){
+    var audio = new Audio('i.mp3');
+    document.getElementById("nan").value="";
+audio.play();
+  }
+  if(x==111){
+    var audio = new Audio('o.mp3');
+    document.getElementById("nan").value="";
+audio.play();
+  }
+  if(x==112){
+    var audio = new Audio('p.mp3');
+    document.getElementById("nan").value="";
+audio.play();
+  }
+  if(x==97){
+    var audio = new Audio('drum.m4a');
+    document.getElementById("nan").value="";
+audio.play();
+  }
+  if(x==115){
+    var audio = new Audio('s.mp3');
+    document.getElementById("nan").value="";
+audio.play();
+  }
+  if(x==100){
+    var audio = new Audio('d.mp3');
+    document.getElementById("nan").value="";
+audio.play();
+  }
+  if(x==102){
+    var audio = new Audio('f.mp3');
+    document.getElementById("nan").value="";
+audio.play();
+  }
+  if(x==103){
+    var audio = new Audio('g.mp3');
+    document.getElementById("nan").value="";
+audio.play();
+  }
+
+  if(x==107){
+    var audio = new Audio('k.mp3');
+    document.getElementById("nan").value="";
+audio.play();
+  }
+
+  if(x==122){
+    var audio = new Audio('z.mp3');
+    document.getElementById("nan").value="";
+audio.play();
+  }
+  if(x==120){
+    var audio = new Audio('x.mp3');
+    document.getElementById("nan").value="";
+audio.play();
+  }
+  if(x==99){
+    var audio = new Audio('c.mp3');
+    document.getElementById("nan").value="";
+audio.play();
+  }
+  if(x==118){
+    var audio = new Audio('v.mp3');
+    document.getElementById("nan").value="";
+audio.play();
+  }
+  if(x==98){
+    var audio = new Audio('b.mp3');
+    document.getElementById("nan").value="";
+audio.play();
+  }
+  if(x==110){
+    var audio = new Audio('n.mp3');
+    document.getElementById("nan").value="";
+audio.play();
+  }
+  if(x==109){
+    var audio = new Audio('m.mp3');
+    document.getElementById("nan").value="";
+audio.play();
+  }
+}
+
+</script>
+
+</body>
+</html>
